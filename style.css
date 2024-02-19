@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+body{
+    background-color: #070F2B;
+}
+.main{
+    box-shadow: 0 0 50px black;
+}
+.main nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    padding: 0 50px;
+}
+.main nav .logo{
+    font-size: 40px;
+    color: #EF4040;
+}
+.main nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main nav ul li+li{
+    margin-left: 40px;
+}
+.main nav ul li{
+    position: relative;
+    padding: 50px 5px 5px 5px;
+}
+.main nav ul li a{
+    color: white;
+    text-decoration: none;
+    z-index: 1;
+    position: relative;
+}
+.main nav ul li::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    display: block;
+    background-color: #EF4040;
+    top: 0;
+    left: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 3px;
+    transition: 0.5s;
+}
+.main nav ul li:hover::after{
+    height: 100%;
+}
+.main nav ul .active{
+    position: relative;
+    padding: 50px 5px 5px 5px;
+}
+.main nav ul .active::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color: #EF4040;
+    top: 0;
+    left: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 3px;
+    transition: 0.5s;
+}
+
+/* ------------------------------Bio section--------------------------------------- */
+.main .bio{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px 0 100px;
+    margin-bottom: 100px;
+} 
+.main .bio .my-bio p{
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin: 0;
+}
+.main .bio .my-bio h1{
+    letter-spacing: 2px;
+    font-size: 50px;
+    margin: 0;
+}
+.main .bio .my-bio h1 span{
+    color: #EF4040;
+}
+.main .bio .my-image{
+    width: 400px;
+}
+.main .bio .my-image img{
+    width: inherit;
+}
+
+/* ----------------------------------------about section------------------------------ */
+.main .about h2{
+    padding-left: 50px;
+    margin-bottom: 20px;
+}
+.main .about h2 span{
+    color: #EF4040;
+}
+.main .about p{
+    padding: 0 50px;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+    text-align: justify;
+}
