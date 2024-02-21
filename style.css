@@ -183,8 +183,8 @@ body{
     width: 130px;
     height: 130px;
     background-image: url(./images/html.jpg);
-    border: 5px solid darkorange;
     position: absolute;
+    border: 5px solid darkorange;
     top: 62px;
 }
 .main .skill .skill-icon #css{
@@ -219,8 +219,8 @@ body{
     background-image: url(./images/jquery.jpg);
     border: 5px solid skyblue;
     position: absolute;
-    left: 316px;
-    top: 189px;
+    left: 433px;
+    top: 61px;
 }
 .main .skill .skill-icon #ajax{
     width: 90px;
@@ -228,6 +228,42 @@ body{
     background-image: url(./images/aj.jpg);
     border: 5px solid cyan;
     position: absolute;
-    left: 421px;
-    top: 274px
+    left: 364px;
+    top: 151px;
+}
+.main .skill .skill-icon #php{
+    width: 150px;
+    height: 150px;
+    background-color: #070F2B;
+    border: 5px solid rebeccapurple;
+    position: absolute;
+    left: 564px;
+    top: -9px;
+}
+.main .skill .skill-icon #laravel{
+    width: 110px;
+    height: 110px;
+    background-color: #070F2B;
+    border: 5px solid orangered;
+    position: absolute;
+    left: 529px;
+    top: 150px;
+}
+.main .skill .skill-icon #mysql{
+    width: 100px;
+    height: 100px;
+    background-color: #070F2B;
+    border: 5px solid darkturquoise;
+    position: absolute;
+    left: 666px;
+    top: 127px;
+}
+.main .skill .skill-icon #mongo{
+    width: 90px;
+    height: 90px;
+    background-color: #070F2B;
+    border: 5px solid green;
+    position: absolute;
+    left: 741px;
+    top: 55px;
 }
